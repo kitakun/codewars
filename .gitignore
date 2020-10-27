@@ -1,0 +1,9 @@
+*.deps.json
+*.dll
+*.pdb
+*.cache
+*.dgspec.json
+**/bin
+**/obj
+*.testlog
+*.manifest
