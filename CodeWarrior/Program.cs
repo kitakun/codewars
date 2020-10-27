@@ -7,7 +7,7 @@ namespace CodeWarrior
     {
         static void Main(string[] args)
         {
-            IWar war = new DubstepWarrior();
+            IWar war = new BinaryAdditionWarrior();
 
             war.Launch();
 
