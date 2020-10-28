@@ -7,7 +7,7 @@ namespace CodeWarrior
     {
         static void Main(string[] args)
         {
-            IWar war = new BitCountingWarrior();
+            IWar war = new DuplicatesCounting();
 
             war.Launch();
 
