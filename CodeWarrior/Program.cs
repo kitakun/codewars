@@ -1,4 +1,5 @@
 ﻿using System;
+
 using CodeWarrior.Wars;
 
 namespace CodeWarrior
@@ -7,9 +8,13 @@ namespace CodeWarrior
     {
         static void Main(string[] args)
         {
-            IWar war = new SplitStrings();
+            IWar war = new RomanNumeralsDecoder();
 
-            war.Launch();
+            do
+            {
+                war.Launch();
+            }
+            while (Console.ReadKey().Key != ConsoleKey.Escape);
 
             Console.WriteLine("====DONE====");
             Console.ReadKey();
