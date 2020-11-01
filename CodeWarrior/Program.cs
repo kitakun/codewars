@@ -8,7 +8,7 @@ namespace CodeWarrior
     {
         static void Main(string[] args)
         {
-            IWar war = new RomanNumeralsDecoder();
+            IWar war = new SumOfDigits();
 
             do
             {
@@ -17,7 +17,6 @@ namespace CodeWarrior
             while (Console.ReadKey().Key != ConsoleKey.Escape);
 
             Console.WriteLine("====DONE====");
-            Console.ReadKey();
         }
     }
 }
