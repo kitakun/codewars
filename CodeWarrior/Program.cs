@@ -7,7 +7,7 @@ namespace CodeWarrior
     {
         static void Main(string[] args)
         {
-            IWar war = new DuplicatesCounting();
+            IWar war = new SplitStrings();
 
             war.Launch();
 
