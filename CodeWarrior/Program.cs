@@ -8,7 +8,7 @@ namespace CodeWarrior
     {
         static void Main(string[] args)
         {
-            IWar war = new SumOfDigits();
+            IWar war = new Permutations();
 
             do
             {
