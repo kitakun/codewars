@@ -8,7 +8,7 @@ namespace CodeWarrior
     {
         static void Main(string[] args)
         {
-            IWar war = new Permutations();
+            IWar war = new TickTacToeChecker_11();
 
             do
             {
