@@ -1,14 +1,14 @@
-﻿using System;
-
-using CodeWarrior.Wars;
-
-namespace CodeWarrior
+﻿namespace CodeWarrior
 {
+    using System;
+
+    using CodeWarrior.Wars;
+
     class Program
     {
         static void Main(string[] args)
         {
-            IWar war = new TickTacToeChecker_11();
+            IWar war = new HumanReadableDurationFormat_12();
 
             do
             {
